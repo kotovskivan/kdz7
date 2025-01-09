@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Найкращі курси з CSS та HTML">
+    <meta name="author" content="KOTOVSKI">
+    <title>Запрошення на курси IT від онлайн-школи NGL-school</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <!--                   ↓  ГОЛОВА  ↓                   -->
+    <header class="header">
+      <div class="headerlogo">
+        <a href="index.html" class="logo-link">
+          <img src="./images/logo.png" alt="Логотип сайту" class="logo-image">
+          <span class="logo-text">NGL-school</span>
+        </a>
+      </div>
+      <div class="navmenuall">
+        <nav class="navmenu">
+          <a class="navnostyle4link" href="index.html">Головна</a>
+          <a class="navnostyle4link" href="./pages/about.html">Про нас</a>
+          <a class="navnostyle4link" href="./pages/contacts.html">Контакти</a>
+          <a class="navnostyle4link" href="./pages/articles.html">Статті</a>
+          <a class="navnostyle4link" href="./pages/gallery.html">Галерея</a>
+        </nav>
+      </div>
+    </header>
+    <!--                   ↑ ГОЛОВА  ↑                  -->
+    <!--                   ↓  БАННЕР  ↓                 -->
+    <div class="container">
+      <div class="banner-main">
+        <img
+          loading="lazy"
+          src="./images/banner.jpg"
+          alt="Банер сайту"
+          width="650">
+      </div>
+      <br>
+      <!--                   ↑ БАННЕР  ↑                  -->
+      <!--                   ↓  ФОРМЫ  ↓                   -->
+      <div class="forms">
+        <span>
+          Не знаєте з чого розпочати? Залишіть заявку та ми допоможемо підібрати курс!
+        </span>
+        <br><br>
+        <form action="/submit-data" method="post">
+          <label for="fname">Ім'я:</label><br>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Андрій"
+            required>
+          <button type="reset">&times;</button><br>
+
+          <label for="phone">Номер телефону:</label><br>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+380960000000"
+            required><br><br>
+
+          <input class="forms-button" type="submit" value="Надіслати">
+        </form>
+      </div>
+
+      <br>
+      <!--                   ↑ ФОРМЫ  ↑                  -->
+      <!--                   ↓  СПИСОК  ↓                   -->
+      <h2>Список доступних курсів</h2>
+      <pre>&#9660; Вигідні пропозиції нижче &#9660;</pre>
+      <br>
+      <div class="course-select-container">
+        <div class="course-select">
+          <h3 class="course-select-container-h3">Курси HTML та CSS</h3>
+          <img
+            loading="lazy"
+            alt="Картинка курсів"
+            src="./images/wtf.jpg"><br>
+          <div class="course-select-description">
+            <p>Цілі курсу</p>
+            <ul>
+              <li>Навчитися розробляти повноцінні веб-додатки на JavaScript з нуля</li>
+              <li>Розібратися в основах серверної і клієнтської розробки на Node.js, Express і React</li>
+              <li>Ознайомитися з основними інструментами і бібліотеками, які використовують Full-Stack розробники</li>
+              <li>Навчитися створювати та використовувати RESTful API для побудови веб-додатків</li>
+              <li>Навчитися роботі з базами даних на прикладі MongoDB і вирішенню задач за їх допомогою</li>
+            </ul>
+            <a
+              class="course-select-button"
+              href="https://www.youtube.com/watch?v=LUMOQJxOsj4"
+              target="_blank">
+              <strong>ЗАПИСАТИСЯ НА КУРС!</strong>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="course-select-container">
+          <div class="course-select">
+            <h3 class="course-select-container-h3">
+              Курси підвищення кваліфікації
+            </h3>
+            <img
+              loading="lazy"
+              alt="Картинка курсів"
+              src="./images/scale_1200.jpg">
+            <div class="course-select-description">
+              <p>Цілі курсу</p>
+              <ul>
+                <li>Навчитися правильно будувати маркетинг-стратегію</li>
+                <li>Навчитися аналізувати ринок і конкурентів</li>
+                <li>Навчитися використовувати різні рекламні інструменти</li>
+                <li>Навчитися працювати з маркетинговими бюджетами</li>
+              </ul>
+              <a
+                class="course-select-button"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank">
+                <strong>ЗАПИСАТИСЯ НА КУРС!</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--                   ↑ СПИСОК  ↑                  -->
+      </div>
+    </div>
+    <!-- Я взял низ с рандомного сайта, я в след работе сделаю свой потому что не успеваю -->
+    <!--                   ↓  ФУТЕР  ↓                   -->
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div> <!-- Використання ідентифікаторів (ID) для стилізації суворо заборонено. Исправлю в след дз, а то мне сейчас по шапке прилетит что на работе делаю не то что надо -->
+      </div>
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://x.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://ua.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="./pages/about.html">Про нас</a></li>
+        <li><a href="./pages/contacts.html">Контакти</a></li>
+        <li><a href="./pages/articles.html">Статті</a></li>
+        <li><a href="./pages/gallery.html">Галерея</a></li>
+      </ul>
+      <p>©2024 Честно украденно, можно украсть повторно</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+    <!--                   ↑ ФУТЕР  ↑                  -->
+  </body>
+</html>

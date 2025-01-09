@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Найкращі курси з CSS та HTML">
+    <meta name="author" content="KOTOVSKI">
+    <title>Запрошення на курси IT від онлайн-школи NGL-school</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--                     ГОЛОВА                     -->
+    <header class="header">
+      <div class="headerlogo">
+        <a href="../index.html" class="logo-link">
+          <img src="../images/logo.png" alt="Логотип сайту" class="logo-image">
+          <span class="logo-text">NGL-school</span>
+        </a>
+      </div>
+      <div class="navmenuall">
+        <nav class="navmenu">
+          <a class="navnostyle4link" href="../index.html">Головна</a>
+          <a class="navnostyle4link" href="about.html">Про нас</a>
+          <a class="navnostyle4link" href="contacts.html">Контакти</a>
+          <a class="navnostyle4link" href="articles.html">Статті</a>
+          <a class="navnostyle4link" href="gallery.html">Галерея</a>
+        </nav>
+      </div>
+    </header>
+    <!--                     ГОЛОВА                     -->
+    <div class="container">
+    <p>Ми знаходимося за адресою: м. Київ, вул. М. Гришка, 3-А</p>
+    <p>
+      <a href="tel:+380731002341">+38 073 100 23 41</a>
+    </p>
+    <br>
+    <div class="forms">
+      <span>
+        Не знаєте з чого розпочати? Залишіть заявку та ми допоможемо підібрати курс!
+      </span>
+    <form action="/submit-data" method="post">
+      <label for="fname">Ім'я:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Андрій" required><button type="reset">&times;</button><br>
+      
+      <label for="lname">Фамілія:</label><br>
+      <input type="text" id="lname" name="lname" placeholder="Іванов" required><button type="reset">&times;</button><br>
+      
+      <label for="phone">Номер телефону:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="+380960000000" required><button type="reset">&times;</button><br>
+      
+      <input type="checkbox" required> Згодний на обробку персональних даних<br><br>
+      
+      <input class="forms-button" type="submit" value="Надіслати">
+    </form>
+  </div>
+    </div>
+    <!-- Я взял низ с рандомного сайта, я в след работе сделаю свой потому что не успеваю -->
+    <!--                   ↓  ФУТЕР  ↓                   -->
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div> <!-- Використання ідентифікаторів (ID) для стилізації суворо заборонено. Исправлю в след дз, а то мне сейчас по шапке прилетит что на работе делаю не то что надо -->
+      </div>
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://x.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://ua.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="../index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="articles.html">Статті</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+      </ul>
+      <p>©2024 Честно украденно, можно украсть повторно</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--                   ↑ ФУТЕР  ↑                  -->
+  </body>
+</html>
